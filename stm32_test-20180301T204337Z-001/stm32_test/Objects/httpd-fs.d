@@ -1,0 +1,15 @@
+.\objects\httpd-fs.o: webserver\httpd-fs.c
+.\objects\httpd-fs.o: webserver\httpd.h
+.\objects\httpd-fs.o: .\RTE\uIP\psock.h
+.\objects\httpd-fs.o: .\RTE\uIP\uipopt.h
+.\objects\httpd-fs.o: .\RTE\_Target_1\uip-conf.h
+.\objects\httpd-fs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\httpd-fs.o: .\webserver\webserver.h
+.\objects\httpd-fs.o: .\webserver\httpd.h
+.\objects\httpd-fs.o: .\RTE\uIP\pt.h
+.\objects\httpd-fs.o: .\RTE\uIP\lc.h
+.\objects\httpd-fs.o: .\RTE\uIP\lc-switch.h
+.\objects\httpd-fs.o: webserver\httpd-fs.h
+.\objects\httpd-fs.o: webserver\httpd-fsdata.h
+.\objects\httpd-fs.o: .\RTE\uIP\uip.h
+.\objects\httpd-fs.o: webserver\httpd-fsdata.c

@@ -1,0 +1,16 @@
+.\objects\httpd.o: webserver\httpd.c
+.\objects\httpd.o: .\RTE\uIP\uip.h
+.\objects\httpd.o: .\RTE\uIP\uipopt.h
+.\objects\httpd.o: .\RTE\_Target_1\uip-conf.h
+.\objects\httpd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\httpd.o: .\webserver\webserver.h
+.\objects\httpd.o: .\webserver\httpd.h
+.\objects\httpd.o: .\RTE\uIP\psock.h
+.\objects\httpd.o: .\RTE\uIP\uipopt.h
+.\objects\httpd.o: .\RTE\uIP\pt.h
+.\objects\httpd.o: .\RTE\uIP\lc.h
+.\objects\httpd.o: .\RTE\uIP\lc-switch.h
+.\objects\httpd.o: .\webserver\httpd-fs.h
+.\objects\httpd.o: webserver\httpd-cgi.h
+.\objects\httpd.o: webserver\http-strings.h
+.\objects\httpd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

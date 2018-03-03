@@ -1,0 +1,10 @@
+<html>
+	<head>
+		<title>Room Temperature</title>
+	</head>
+	<body>
+		<p>Температура в комнате:</p>
+		%! roomTemperature
+		<p>градусов по цельсию</p>
+	</body>
+</html>
