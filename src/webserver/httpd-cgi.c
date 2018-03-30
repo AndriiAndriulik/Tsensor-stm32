@@ -127,7 +127,7 @@ get_temperature(void *arg)
 	uint16_t temperature = ds18b20_GetTemperature();
   struct httpd_state *s = (struct httpd_state *)arg;
   return snprintf((char *)uip_appdata, UIP_APPDATA_SIZE,
-		  "%c%d.%d\n", ds18b20_GetTempSign(temperature),
+		  "%c%d.%d\n", (char) ds18b20_GetTempSign(temperature),
 			ds18b20_GetTempInteger(temperature),
 			ds18b20_GetTempFloat(temperature));
 }

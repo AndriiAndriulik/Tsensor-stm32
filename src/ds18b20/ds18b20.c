@@ -111,6 +111,7 @@ uint8_t ds18b20_GetTempSign(uint16_t temp)
 	uint8_t sign = ' ';
 	if (temp & 0x8000) sign = '-';
 	else sign = '+';
+	return sign;
 }
 
 uint8_t ds18b20_GetTempInteger(uint16_t temp)

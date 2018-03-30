@@ -1,10 +1,11 @@
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<title>Room Temperature</title>
 	</head>
 	<body>
-		<p>Температура в комнате:</p>
+		<p>РўРµРјРїРµСЂР°С‚СѓСЂР° РІ РєРѕРјРЅР°С‚Рµ:</p>
 		%! roomTemperature
-		<p>градусов по цельсию</p>
+		<p>РіСЂР°РґСѓСЃРѕРІ РїРѕ Р¦РµР»СЊСЃРёСЋ</p>
 	</body>
 </html>
